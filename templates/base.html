@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>GLS Fullstack Exercise</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="static/css/bootstrap-tour-standalone.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/gls.css') }}">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap-tour-standalone.min.js"></script>
+    <script src="static/js/player.js"></script>
+  </head>
+  <body>
+      <!-- Jinja2 directives: page contents will go between them -->
+      {% block body %}
+      {% endblock %}
+  </body>
+</html>
