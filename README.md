@@ -1,4 +1,4 @@
-# Basic Flask App
+# Basic Flask App for GLS Fullstack Exercise
 
 This small repo demonstrates a proper file structure for a Flask app. The folders named *static* and *templates* are required.
 
@@ -6,6 +6,19 @@ This small repo demonstrates a proper file structure for a Flask app. The folder
 
 The template file `base.html` is used as a shell by the other HTML template. This means they insert content into `base.html` according to Jinja2 template rules.
 
-After installing all dependencies, run the app by entering its folder and typing:
+For linux systems:
 
+Installing all dependencies:
+    Following command will create virtual environment and install required dependencies.
+`$ make setup`
+
+Run the Application:
+    Following command will run the application on local machine at 5000 port.
+`$ make run`
+
+for windows:
+   Install all dependencies using the following command
+`$ pip install -r requirements.txt`
+
+    Run the application
 `$ python app.py`
