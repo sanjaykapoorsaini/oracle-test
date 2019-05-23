@@ -1,4 +1,6 @@
-.myClass1 {padding: 10px 20px;border: 1px solid green;margin-bottom: 50px; width: 325px;}
+/* Custom CSS for GLS demo. */
+
+.myClass1 {padding: 10px 20px;border: 1px solid green;margin-bottom: 50px;}
 
 .myClass2 {padding: 50px;border: 1px solid red;display: inline-block;position: absolute;right: 0px;}
 

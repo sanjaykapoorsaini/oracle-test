@@ -42,7 +42,7 @@ venv/bin/activate: requirements.txt
 	touch venv/bin/activate
 
 test: venv
-	$(VENV_ACTIVATE) && pip list
+	$(VENV_ACTIVATE) && nosetests
 
 clean:
 	rm -rf venv

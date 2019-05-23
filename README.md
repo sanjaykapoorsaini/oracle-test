@@ -17,6 +17,8 @@ For linux systems:
     Following command will run the application on local machine at 5000 port.
         `$ make run`
 
+**Test the Application:**
+    `$ make test`
 
 
 For windows:
